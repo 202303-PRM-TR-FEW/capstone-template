@@ -1,0 +1,31 @@
+.welcome-main-container {
+  @apply bg-theme h-screen flex flex-col justify-center items-center lg:block;
+}
+
+.welcome {
+  @apply lg:h-5/6 md:grid md:grid-cols-2 content-center md:bg-center sm:bg-no-repeat sm:bg-contain  bg-contain bg-no-repeat ml-4 mr-4;
+}
+
+.welcome-container {
+  @apply px-3 mx-auto flex flex-wrap flex-col md:flex-row py-10;
+}
+
+.leading-left {
+  @apply flex flex-col w-full justify-center text-center md:text-left md:ml-10 max-w-[19em] min-w-[17rem] mx-auto xl:max-w-[28rem];
+}
+
+.leading-header {
+  @apply sm:text-7xl text-[3.5rem] font-bold mb-10;
+}
+
+.leading-normal {
+  @apply text-2xl mb-8;
+}
+
+.leading-sub-normal {
+  @apply text-sm mb-8;
+}
+
+a.leading-button {
+  @apply text-white bg-[#050708] hover:bg-[#050708]/80 focus:ring-4 focus:outline-none focus:ring-[#050708]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center md:flex sm:items-center justify-center w-[16.5rem] place-self-center md:place-self-start;
+}

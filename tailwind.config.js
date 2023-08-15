@@ -7,12 +7,22 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      fontFamily: {
+        krona: ['Krona One', 'sans-serif'],
+        mulish: ['Mulish', 'sans-serif']
       },
+      colors: {
+        "theme": "rgb(212, 238, 38)",
+        "accent": "rgb(250, 250, 250)",
+        "accent-black": "#0a0a0a",
+        "calender-header":"#111",
+        "ranged-day":"rgb(212, 238, 38, 0.5)",
+        "hover-days":"rgb(136, 136, 136, 0.425)"
+      },
+      borderColor:{
+        'white':'#ffffff',
+      }
     },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/forms")],
 }

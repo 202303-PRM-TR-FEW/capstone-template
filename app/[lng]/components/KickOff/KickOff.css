@@ -1,0 +1,145 @@
+.input-field {
+  @apply border-x-0 border-t-0 border-b-[1px] border-solid border-black
+}
+
+label {
+  @apply font-mulish lg:text-[18px] md:text-[13px];
+}
+
+.title-input::placeholder {
+  @apply text-[15px] font-mulish font-medium 
+}
+
+.title-input:focus{
+  @apply border-black
+}
+
+input {
+  @apply md:w-[70%] lg:w-auto;
+}
+
+.nice-dates-navigation,
+.nice-dates-day {
+  @apply text-gray-700
+}
+
+.nice-dates-popover {
+  @apply border border-solid border-gray-300 rounded-md max-w-xs md:max-w-md lg:max-w-xl
+}
+
+.confirm-button {
+  @apply bg-theme rounded-md text-accent-black flex justify-center items-center text-[15px] ml-[11px] w-[90%]
+}
+
+.confirm-button button {
+  @apply w-full border-none text-accent-black rounded-[15px] bg-theme
+}
+
+.react-datepicker__header {
+  @apply text-white bg-calender-header
+}
+
+.custom-calendar {
+  @apply text-white font-bold bg-calender-header
+}
+
+.react-datepicker__day {
+  @apply text-white font-bold
+}
+
+.react-datepicker__day-name {
+  @apply text-white font-bold
+}
+
+.react-datepicker__header__dropdown{
+  @apply text-white pr-[15px]
+}
+
+.react-datepicker__navigation--next{
+  @apply top-[5px]
+}
+
+.react-datepicker__navigation-icon--previous{
+  @apply top-[2px]
+}
+
+.react-datepicker__month-read-view--down-arrow{
+  @apply top-[3px]
+}
+
+.react-datepicker__year-read-view--down-arrow{
+  @apply top-[3px]
+}
+
+.react-datepicker__header{
+  @apply mt-[-1.8px]
+}
+
+.react-datepicker__current-month {
+  @apply hidden
+}
+
+.react-datepicker__year-option:hover{
+  @apply bg-theme text-black
+}
+
+.react-datepicker__year-option{
+  @apply h-[1.5rem]
+}
+
+.react-datepicker__year-dropdown{
+  @apply bg-black flex flex-col-reverse
+}
+
+.react-datepicker__month-option:hover{
+  @apply bg-theme text-black
+}
+
+.react-datepicker__month-dropdown{
+  @apply bg-black  
+}
+
+.react-datepicker__navigation--years.react-datepicker__navigation--years-upcoming {
+  @apply top-[8px] border-b-white transform rotate-180
+}
+
+.react-datepicker__navigation--years.react-datepicker__navigation--years-previous {
+  @apply top-0 border-t-white transform rotate-180;
+}
+
+.react-datepicker__navigation--years.react-datepicker__navigation--years-upcoming:hover {
+  @apply top-[8px] border-b-black
+}
+
+.react-datepicker__navigation--years.react-datepicker__navigation--years-previous:hover {
+  @apply top-0 border-b-black
+}
+.react-datepicker__navigation--years {
+  @apply bg-none leading-[1.7rem] ml-auto mr-auto block relative cursor-pointer z-[1] h-[10px] w-[10px] overflow-hidden border-solid border-[0.45rem] border-transparent  text-center p-0 ;
+}
+
+.react-datepicker__day--selected-start,
+.react-datepicker__day--selected-end,
+.react-datepicker__day--in-range {
+  @apply bg-theme text-black
+}
+
+.react-datepicker__day--in-selecting-range {
+  @apply !bg-ranged-day
+}
+
+.react-datepicker__day--keyboard-selected{
+  @apply bg-ranged-day
+}
+
+.react-datepicker__day--keyboard-selected:hover{
+  @apply !bg-ranged-day
+}
+
+.react-datepicker__day:hover {
+  @apply bg-theme text-black cursor-pointer
+}
+
+.past-day:hover{
+  @apply bg-hover-days
+}

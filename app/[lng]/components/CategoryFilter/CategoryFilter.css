@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.categories{
+@apply flex flex-wrap md:flex-nowrap justify-center xl:justify-start items-center container w-11/12 mx-auto px-3;
+}
+
+.icon-main {
+  @apply flex flex-col justify-center items-center gap-2 rounded-xl m-2 p-2 space-y-2 w-36 h-24 text-accent-black hover:bg-theme hover:text-accent-black hover:box-border hover:border-2 hover:border-accent-black text-center
+}
+
+.icon-main-selected {
+  @apply flex flex-col justify-center items-center gap-2 rounded-xl m-2 p-2 space-y-2 w-36 h-24 bg-accent-black text-accent text-center
+}
+
+.icon {
+  @apply border-2 border-spacing-4 rounded-md border-accent-black p-[0.250rem]
+}
+
+.icon-selected {
+  @apply border-2 border-spacing-4 rounded-md text-accent border-accent p-[0.250rem]
+}

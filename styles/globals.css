@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.body-bg {
+  @apply bg-accent
+}
+
+.body-text {
+  @apply font-krona text-[#0a0a0a] text-[18px];
+}
+
